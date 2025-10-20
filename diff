@@ -1,0 +1,43 @@
+index.html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio de Basilia HOUNDAFOCHE</title>
+  <style>
+    body {font-family: Arial, sans-serif; background-color: #f9fafb; margin: 0; padding: 40px;}
+    header {text-align: center; margin-bottom: 40px;}
+    h1 {color: #2b4d2b;}
+    section {max-width: 800px; margin: auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);}
+    h2 {color: #4a7c59;}
+    a {color: #0073e6;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>👩🏽‍💻 Portfolio de Josephine HOUNDAFOCHE</h1>
+    <p>Rédactrice web spécialisée en agriculture durable 🌾</p>
+  </header>
+
+  <section>
+    <h2>À propos</h2>
+    <p>Diplômée en agronomie et passionnée par la communication durable, je transforme les sujets agricoles en contenus clairs, vivants et engageants.</p>
+
+    <h2>Mes services</h2>
+    <ul>
+      <li>✍️ Rédaction web SEO</li>
+      <li>🌿 Contenus sur l’agriculture durable</li>
+      <li>📣 Communication et storytelling agricole</li>
+    </ul>
+
+    <h2>Mes réalisations</h2>
+    <p><a href="#">→ Lire un article sur l’agriculture durable</a></p>
+    <p><a href="#">→ Voir une campagne de communication</a></p>
+
+    <h2>Contact</h2>
+    <p>📧 Email : houndafochejosephine@example.com</p>
+    <p>🔗 LinkedIn : <a href="#">linkedin.com/in/basiliahoundafoche</a></p>
+  </section>
+</body>
+</html>
