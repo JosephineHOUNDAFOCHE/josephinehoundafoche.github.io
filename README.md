@@ -4,29 +4,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio - Josephine HOUNDAFOCHE</title>
+  <title>Josephine HOUNDAFOCHE | Rédactrice web en agriculture durable</title>
   <style>
-    /* Couleurs et typographie */
     body {
-      font-family: 'Arial', sans-serif;
       margin: 0;
-      padding: 0;
-      background-color: #f5f8f6;
-      color: #333;
-    }
-    a {
-      color: #4a7c59;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    a:hover {
-      text-decoration: underline;
+      font-family: "Poppins", sans-serif;
+      color: #2b2b2b;
+      background-color: #f8f7f3;
+      line-height: 1.6;
     }
 
-    /* Header */
+    /* En-tête avec image */
     header {
-      background: url('https://images.unsplash.com/photo-1597309627194-1086bbf1b1f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzE1NjZ8MHwxfHNlYXJjaHwxfHx3b21hbiUyMGZpZWxkJTIwY29tcHV0ZXJ8ZW58MHx8fHwxNjUwNzgyMTQ2&ixlib=rb-4.0.3&q=80&w=1400') no-repeat center center/cover;
-      height: 60vh;
+      background: url('https://images.unsplash.com/photo-1597309627194-1086bbf1b1f0?auto=format&fit=crop&w=1400&q=80') no-repeat center center/cover;
+      height: 80vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -35,68 +26,92 @@
       text-align: center;
       padding: 0 20px;
     }
+
     header h1 {
       font-size: 3em;
+      text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
       margin: 0;
-      text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
     }
+
     header p {
-      font-size: 1.5em;
-      margin-top: 10px;
+      font-size: 1.3em;
+      margin-top: 15px;
+      max-width: 600px;
+      text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
       font-style: italic;
-      text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
     }
 
-    /* Sections */
+    /* Section storytelling */
     section {
-      max-width: 900px;
-      margin: 40px auto;
-      background: white;
+      max-width: 850px;
+      margin: 60px auto;
+      background-color: white;
       border-radius: 15px;
-      padding: 30px;
-      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
-    }
-    h2 {
-      color: #2b4d2b;
-      border-bottom: 2px solid #e3e3e3;
-      padding-bottom: 5px;
-      margin-bottom: 15px;
-    }
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-    ul li::before {
-      content: "🌿 ";
+      padding: 40px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     }
 
-    /* Footer */
-    footer {
+    h2 {
+      color: #4a7c59;
+      font-size: 1.8em;
+      border-bottom: 2px solid #eaeaea;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    .quote {
+      font-style: italic;
+      color: #6d6d6d;
+      border-left: 4px solid #c3d1c6;
+      padding-left: 15px;
+    }
+
+    /* Boutons */
+    .cta {
       text-align: center;
-      background-color: #4a7c59;
-      color: white;
-      padding: 20px;
       margin-top: 40px;
     }
 
-    /* Boutons de contact */
-    .contact a {
+    .cta a {
       display: inline-block;
-      margin-right: 20px;
-      padding: 10px 20px;
+      margin: 10px;
+      padding: 12px 25px;
+      border-radius: 8px;
       border: 2px solid #4a7c59;
-      border-radius: 5px;
-      transition: 0.3s;
+      color: #4a7c59;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s ease;
     }
-    .contact a:hover {
+
+    .cta a:hover {
       background-color: #4a7c59;
       color: white;
     }
 
-    /* Responsive */
-    @media(max-width: 600px){
-      header h1 { font-size: 2em; }
-      header p { font-size: 1.2em; }
+    footer {
+      text-align: center;
+      padding: 25px;
+      background-color: #4a7c59;
+      color: white;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+      header p {
+        font-size: 1em;
+      }
+      section {
+        margin: 30px 15px;
+        padding: 25px;
+      }
     }
   </style>
 </head>
@@ -104,48 +119,63 @@
 
   <header>
     <h1>Josephine HOUNDAFOCHE</h1>
-    <p>🌾 Je valorise l'agriculture avec les mots justes et inspirants</p>
+    <p>Je valorise l'agriculture avec les mots justes et inspirants. 🌾</p>
   </header>
 
   <section>
-    <h2>À propos de moi</h2>
+    <h2>Mon parcours</h2>
     <p>
-      Diplômée en agronomie, je me consacre à la rédaction web et à la communication agricole.
-      J’aide les acteurs du monde rural à valoriser leurs initiatives à travers des contenus clairs et vivants.
+      Diplômée en agronomie, j’ai choisi de mettre ma plume au service du monde rural.  
+      Mon parcours m’a appris que l’agriculture ne se résume pas aux chiffres ou aux rendements :
+      elle raconte des histoires humaines, des espoirs, des défis et des innovations.
+    </p>
+    <p class="quote">
+      “Je crois profondément que les mots peuvent nourrir la terre autant que les semences.”
     </p>
   </section>
 
   <section>
-    <h2>Mes services</h2>
+    <h2>Ma mission</h2>
+    <p>
+      À travers la rédaction web, je traduis la passion et l’engagement des acteurs du monde agricole.
+      Mon objectif : rendre chaque projet visible, compris et inspirant, tout en restant fidèle à ses racines.
+    </p>
+    <p>
+      Je conçois des contenus clairs, accessibles et vivants pour informer, sensibiliser et valoriser l’agriculture durable.
+    </p>
+  </section>
+
+  <section>
+    <h2>Ce que je propose</h2>
     <ul>
-      <li>✍️ Rédaction web</li>
-      <li>🌿 Storytelling agricole</li>
-      <li>💻 Communication digitale</li>
-      <li>📰 Gestion de blog</li>
-      <li>🛍️ Création de fiches produits</li>
-      <li>📝 Description de produits</li>
+      <li>✍️ Rédaction d’articles sur l’agriculture et l’agroécologie</li>
+      <li>🌿 Storytelling agricole pour marques et projets ruraux</li>
+      <li>💬 Posts LinkedIn et contenus de sensibilisation</li>
+      <li>🛒 Création de fiches et descriptions de produits agricoles</li>
+      <li>📰 Gestion et animation de blogs professionnels</li>
     </ul>
   </section>
 
   <section>
-    <h2>Mes réalisations</h2>
-    <ul>
-      <li>📄 Articles sur l’agriculture et l’agroécologie</li>
-      <li>💬 Posts LinkedIn à forte valeur ajoutée</li>
-      <li>🎯 Campagnes de sensibilisation</li>
-      <li>📘 Fiches techniques et informatives</li>
-    </ul>
+    <h2>Ce qui m’inspire</h2>
+    <p>
+      Chaque jour, je rencontre des agriculteurs, des entrepreneurs et des chercheurs qui façonnent
+      l’avenir de notre alimentation. Ce sont leurs récits, leurs mains et leurs valeurs
+      qui inspirent ma plume.
+    </p>
   </section>
 
-  <section class="contact">
-    <h2>Contact</h2>
-    <a href="mailto:houndafochejosephine@gmail.com">📧 Envoyer un email</a>
-    <a href="https://www.linkedin.com/in/basilia-josephine-sedekon-houndafo" target="_blank">🔗 LinkedIn</a>
+  <section class="cta">
+    <h2>Travaillons ensemble 🌻</h2>
+    <p>Prête à donner vie à votre projet agricole avec les bons mots ?</p>
+    <a href="mailto:houndafochejosephine@gmail.com">📧 Me contacter</a>
+    <a href="https://www.linkedin.com/in/basilia-josephine-sedekon-houndafo" target="_blank">🔗 Mon LinkedIn</a>
   </section>
 
   <footer>
-    © 2025 Josephine HOUNDAFOCHE — Rédactrice web & communication agricole 🌾
+    © 2025 Josephine HOUNDAFOCHE — Rédactrice web en agriculture durable 🌾
   </footer>
 
 </body>
 </html>
+
